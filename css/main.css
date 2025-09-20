@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+}
+
+body {
+  background-color: #d5e1ef;
+  color: #1f314f;
+}
+
+.font-regular {
+  line-height: 1.4;
+  letter-spacing: 0.2px;
+  font-weight: 400;
+}
+
+.font-bold {
+  line-height: 1.2;
+  letter-spacing: 0px;
+  font-weight: 700;
+}
+
+/* general styles */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.card-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 20px;
+  max-width: 320px;
+  padding: 20px;
+  text-align: center;
+}
+
+.card h1 {
+  margin-top: 24px;
+  font-size: 22px;
+}
+
+.card p {
+  margin-top: 16px;
+  color: #68778d;
+}
+
+.qr-code {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.qr-code img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+/* attributions */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
